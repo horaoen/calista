@@ -1,9 +1,9 @@
-import { root } from '@lynx-js/react'
+import { root } from "@lynx-js/react";
+import { furnituresPictures } from "./Pictures/furnitures/furnituresPictures.jsx";
+import { Gallery } from "./Gallery.jsx";
 
-import { App } from './App.jsx'
-
-root.render(<App />)
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
+function AddAutoScroll() {
+  return <Gallery pictureData={furnituresPictures} />;
 }
+
+root.render(<AddAutoScroll />);

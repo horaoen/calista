@@ -10,13 +10,13 @@ This is a ReactLynx project bootstrapped with `create-rspeedy`.
 First, install the dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
 Then, run the development server:
 
 ```bash
-pnpm run dev
+bun run dev
 ```
 
 Scan the QRCode in the terminal with your LynxExplorer App to see the result.
